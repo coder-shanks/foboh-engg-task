@@ -1,32 +1,12 @@
 import { useState, useEffect } from 'react'
-import {
-  DashboardIcon,
-  OrdersIcon,
-  CustomersIcon,
-  ProductsIcon,
-  PricingIcon,
-  FreightIcon,
-  CloseIcon,
-  MenuIcon,
-  SettingsIcon,
-  BellIcon,
-  HelpIcon
-} from '../Icons'
+import PropTypes from 'prop-types'
+import { CloseIcon, MenuIcon, SettingsIcon, BellIcon, HelpIcon } from '../Icons'
 import CompanyLogo from '../../assets/media/company-logo.svg?react'
 import userAvatar from '../../assets/media/checker-avatar.png'
+import MENU_ITEMS from '../../constants'
 
-const MENU_ITEMS = [
-  { name: 'Dashboard', icon: <DashboardIcon /> },
-  { name: 'Orders', icon: <OrdersIcon /> },
-  { name: 'Customers', icon: <CustomersIcon /> },
-  { name: 'Products', icon: <ProductsIcon /> },
-  { name: 'Pricing', icon: <PricingIcon />, isNew: true },
-  { name: 'Freight', icon: <FreightIcon />, isNew: true }
-]
-
-function Header() {
+function Header({ activeNav, setActiveNav }) {
   const [openNav, setOpenNav] = useState(false)
-  const [activeNav, setActiveNav] = useState(MENU_ITEMS[0].name)
 
   const isActiveClass =
     'text-primary hover:text-primary md:border-r-2 md:border-r-primary'
@@ -141,6 +121,11 @@ function Header() {
       </div>
     </header>
   )
+}
+
+Header.propTypes = {
+  activeNav: PropTypes.string.isRequired,
+  setActiveNav: PropTypes.func.isRequired
 }
 
 export default Header
