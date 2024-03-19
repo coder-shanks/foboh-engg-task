@@ -1,5 +1,13 @@
+import Header from "./components/Header";
+import PageContent from "./components/PageContent";
+
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <Header />
+      <PageContent />
+    </>
+  );
 }
 
 export default App;
