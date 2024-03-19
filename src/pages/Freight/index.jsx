@@ -141,7 +141,7 @@ function FreightPage() {
               <span className="text-blue-gray opacity-40">A$</span>
               <input
                 type="number"
-                className="flex-grow px-2 text-gray-darkest bg-white border-none outline-none [appearance:textfield]"
+                className="flex-grow px-2 text-gray-darkest bg-transparent border-none outline-none [appearance:textfield]"
                 disabled={!areActionsEnabled}
               />
             </div>

@@ -32,7 +32,7 @@ function Header({ activeNav, setActiveNav }) {
     <header className="flex items-center h-20 bg-white">
       <div className="flex items-center justify-between w-full">
         <nav
-          className={`absolute lg:fixed lg:w-[var(--sidebar-width)] lg:h-[calc(100%-var(--header-height))] lg:top-20 lg:flex lg:flex-col lg:justify-between md:max-lg:pr-6 lg:rounded-none lg:shadow-none left-0 w-full py-4 bg-white rounded-bl-[10px] rounded-br-[20px] shadow ${
+          className={`absolute lg:w-[var(--sidebar-width)] lg:h-[calc(100%-var(--header-height))] lg:top-20 lg:flex lg:flex-col lg:justify-between md:max-lg:pr-6 lg:rounded-none lg:shadow-none left-0 w-full py-4 bg-white rounded-bl-[10px] rounded-br-[20px] shadow ${
             openNav ? 'top-[82px]' : '-top-full'
           }`}
         >
