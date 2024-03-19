@@ -12,8 +12,8 @@ import {
   BellIcon,
   HelpIcon
 } from '../Icons'
-import CompanyLogo from '../../assets/company-logo.svg?react'
-import userAvatar from '../../assets/checker-avatar.png'
+import CompanyLogo from '../../assets/media/company-logo.svg?react'
+import userAvatar from '../../assets/media/checker-avatar.png'
 
 const MENU_ITEMS = [
   { name: 'Dashboard', icon: <DashboardIcon /> },

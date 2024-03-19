@@ -1,0 +1,20 @@
+.states {
+  fill: #f8fafc;
+  stroke: #d4e4f2;
+}
+
+.states:hover,
+.states:focus {
+  cursor: pointer;
+  fill: #f8fafc;
+  stroke: #212b36;
+}
+
+#selected {
+  fill: #f4fff7;
+  stroke: #08822a;
+}
+
+.state-label {
+  font-size: 10px;
+}

@@ -7,4 +7,10 @@
     --sidebar-width: 260px;
     --header-height: 80px;
   }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
