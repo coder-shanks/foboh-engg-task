@@ -1,5 +1,5 @@
-import Header from "./components/Header";
-import PageContent from "./components/PageContent";
+import Header from './components/Header'
+import PageContent from './components/PageContent'
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Header />
       <PageContent />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
