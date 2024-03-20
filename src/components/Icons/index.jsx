@@ -9,6 +9,8 @@ import BellIcon from '../../assets/media/bell.svg?react'
 import HelpIcon from '../../assets/media/help.svg?react'
 import CloseIcon from '../../assets/media/close.svg?react'
 import MenuIcon from '../../assets/media/menu.svg?react'
+import EditIcon from '../../assets/media/edit.svg?react'
+import DeleteIcon from '../../assets/media/delete.svg?react'
 
 export {
   DashboardIcon,
@@ -21,5 +23,7 @@ export {
   BellIcon,
   HelpIcon,
   CloseIcon,
-  MenuIcon
+  MenuIcon,
+  EditIcon,
+  DeleteIcon
 }

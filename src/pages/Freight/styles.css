@@ -15,6 +15,15 @@
   stroke: #08822a;
 }
 
+.states.saved {
+  fill: #147d73;
+  stroke: #147d73;
+}
+
 .state-label {
   font-size: 10px;
+}
+
+text.saved {
+  fill: white;
 }
